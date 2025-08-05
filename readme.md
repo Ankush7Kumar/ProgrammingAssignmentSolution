@@ -5,13 +5,19 @@ FINAL ANSWER IS PART 2.
 Download the files called part1.py and part2.py on your system locally. Ensure you have python installed on your system. 
 Ensure you have images with jpg extension to test the program with.
 There is a PIL dependency. So you should install it by running the following command:
+```bash
 pip install pillow
+```
 
 To run the program, run the following command:
+```bash
 python part2.py <absolute_image_path>
+```
 
 Example:
+```bash
 python part2.py "C:\TMMC_interview_assignment\img_1.jpg"
+```
 
 Do similarly for part1.py to run the part1.py program.
 
