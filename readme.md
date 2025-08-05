@@ -2,7 +2,7 @@ FINAL ANSWER IS PART 2.
 
 ## How to use the app
 
-Download the files called part1.py and part2.py on your system locally. Ensure you have python installed on your system. 
+Download the files called part1.py and part2.py on your system locally or you could git clone this repo. Ensure you have python installed on your system. 
 Ensure you have images with jpg extension to test the program with.
 There is a PIL dependency. So you should install it by running the following command:
 ```bash
