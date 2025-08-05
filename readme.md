@@ -36,12 +36,12 @@ the middle row of the image have the pixel black for each vertical line.
 
 So, divided the question into two parts.
 
-# Part 1
+#### Part 1
 
 Line definitely exists on both halves.
 For any given vertical line, the middle row of the image for that particular line will definitely be black.
 
-# Part 2
+#### Part 2
 
 Line may not exist on the middle row of the image.
 For any given vertical line, the middle row of the image for that particular line may not be black.
@@ -49,13 +49,13 @@ For any given vertical line, the middle row of the image for that particular lin
 
 ## My Approach 
 
-# Part 1
+#### Part 1
 
 If we look at the middle row of the image. You could think of it as a 1d array/list. Connected/adjacent black 
 cells represent one line. If there is a white cell between the two black cells, then that is a separation between two lines.
 So the question comes down to counting the number of subarrays with all black cells.
 
-# Part 2
+#### Part 2
 
 Here, we cannot rely on the middle row of the image. Therefore, I am using BFS (Breadth First Search) Algorithm to identify different
 islands of black on white background. 
