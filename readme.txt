@@ -1,6 +1,6 @@
 FINAL ANSWER IS PART 2.
 
-====== How to use the app ======
+## How to use the app
 
 Download the files called part1.py and part2.py on your system locally. Ensure you have python installed on your system. 
 Ensure you have images with jpg extension to test the program with.
@@ -15,7 +15,7 @@ python part2.py "C:\TMMC_interview_assignment\img_1.jpg"
 
 Do similarly for part1.py to run the part1.py program.
 
-========= Assumption ===========
+## Assumption
 
 I was not sure about an assumption. Therefore, I decided to implement both the scenarios I could think of.
 
@@ -41,7 +41,7 @@ Line may not exist on the middle row of the image.
 For any given vertical line, the middle row of the image for that particular line may not be black.
 
 
-========== My Approach ==========
+## My Approach 
 
 Part 1:
 
@@ -60,7 +60,7 @@ That is 4-Connectivity (No Diagonal). The answer could be extended to 8-Connecti
 are counting vertical lines and not zig-zag.
 
 
-============== Note ===============
+## Note 
 
 Part 1 is faster. However, it might not pass all the cases if the assumption is not true. 
 Part 2 should pass all the cases.
